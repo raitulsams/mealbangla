@@ -4,10 +4,10 @@ const Meal = ({ meal }) => {
     const { idMeal, strMeal, strMealThumb } = meal;
 
     return (
-        <div className="card bg-base-100 w-55 shadow-sm">
+        <div className="card bg-base-100 w-96 shadow-sm">
             <NavLink to={`/meal-details/${idMeal}`}>
                 <figure>
-                    <img className="rounded-lg cursor-pointer w-[100%] hover:scale-125 transition-all duration-300 ease-in-out"
+                    <img className="rounded-lg cursor-pointer w-full hover:scale-125 transition-all duration-300 ease-in-out"
                         src={strMealThumb} />
                 </figure>
             </NavLink>

@@ -9,7 +9,7 @@ const FilteredMeals = () => {
     const { idMeal, strMeal, strMealThumb } = meals;
     return (
         <>
-            <div class=" bg-base-100 shadow-sm p-4">
+            <div class="w-full lg:w-[1200px] bg-base-100 py-4">
                 <button onClick={() => { navigate(-1) }} class="flex items-center justify-center w-full px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
@@ -19,7 +19,7 @@ const FilteredMeals = () => {
                 <h1 className="text-3xl font-bold text-center w-full p-2">Category: {categoryName}</h1>
 
 
-                <div className="flex flex-wrap gap-2 p-4 justify-center">
+                <div className="flex flex-wrap grow gap-4 mt-2 justify-center">
 
                     {
                         meals.map((meal) => {

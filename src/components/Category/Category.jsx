@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 const Category = ({ category }) => {
     const { idCategory, strCategory, strCategoryThumb, strCategoryDescription } = category;
     return (
-        <div className="card bg-base-100 w-96 shadow-sm">
+        <div className="card bg-base-100 w-full shadow-sm">
             <figure>
                 <img
                     src={strCategoryThumb}

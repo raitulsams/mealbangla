@@ -19,7 +19,6 @@ const Categories = () => {
         <>
             <h1 className="text-3xl font-bold text-center w-full p-2">Categories</h1>
             <div className="flex flex-wrap gap-2 p-4 justify-center">
-
                 {
                     mealsCategories.map((category, idx) => {
                         return (
