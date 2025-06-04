@@ -37,3 +37,17 @@
 - **CSS Modules / Tailwind / Custom Styling / DaisyUI** (based on what you used)
 
 ---
+
+## 🔮 Future Plans
+
+- 📺 **Embed YouTube Videos**  
+  Integrate YouTube video tutorials or cooking demonstrations directly on the meal detail pages for a richer user experience.
+
+- 🔗 **Show Recipe References**  
+  Add links to original recipe sources or external websites for users who want more detailed instructions or background about the meal.
+
+- 🔍 **Advanced Search & Filters**  
+  Implement search by ingredient, area, or category with filtering options to help users quickly find meals they want.
+
+- ❤️ **Favorites and Meal Planner**  
+  Allow users to save favorite meals and create weekly meal plans with shopping lists.
