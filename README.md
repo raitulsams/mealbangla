@@ -1,13 +1,39 @@
-# React + Vite
+# 🍽️ Meal Explorer — A Food Discovery App using TheMealDB API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Meal Explorer** is a React-based web application that allows users to discover and explore a wide variety of meals using [TheMealDB API](https://www.themealdb.com/). The app features category-based browsing, detailed meal instructions, ingredients visualization, and responsive design for a smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔎 **Browse Meals by Category**  
+  View categorized meals like Beef, Chicken, Vegetarian, and more.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# mealbangla
+- 📋 **Meal Details Page**  
+  Get detailed information about a selected meal including:
+
+  - Cooking instructions
+  - Area of origin
+  - YouTube video link (if available)
+  - Ingredients with images
+
+- 🧂 **Ingredient Display**  
+  Dynamically rendered ingredient images and names using TheMealDB's ingredient API.
+
+- 🔄 **Dynamic Routing**  
+  Uses React Router to handle navigation between categories and individual meal details.
+
+- ⚡ **Fast Loading with Loaders**  
+  Data is fetched using React Router loaders to improve performance and avoid flickering.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **React Router v6.4+**
+- **Fetch API**
+- **TheMealDB API**
+- **CSS Modules / Tailwind / Custom Styling / DaisyUI** (based on what you used)
+
+---
